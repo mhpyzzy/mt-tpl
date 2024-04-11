@@ -13,7 +13,7 @@
 
 <style scoped>
   .h5 {
-    height: 200px;
+    height: 160px;
     background-color: antiquewhite;
   }
 </style>

@@ -7,9 +7,12 @@ import router from './router'
 import '@/styles/index.css'
 import I18n from '@/i18n'
 
-import VConsole from 'vconsole'
 import { isDebug } from './config/index'
+import VConsole from 'vconsole'
 isDebug && (new VConsole())
+
+import { useAdaptLayout } from '@/hooks/adaptLayout.js'
+useAdaptLayout()
 
 const app = createApp(App)
 

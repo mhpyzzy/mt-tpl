@@ -6,7 +6,9 @@ import H5 from './h5.vue';
 </script>
 
 <template>
-  <component :is="isMobile ? H5 : PC" />
+  <PC></PC>
+<!--  <H5></H5>-->
+<!--  <component :is="isMobile ? H5 : PC" />-->
 </template>
 
 <style scoped>
