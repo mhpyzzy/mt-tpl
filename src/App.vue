@@ -1,24 +1,11 @@
 <script setup>
   import {onMounted,getCurrentInstance} from "vue";
-  import useWeb3 from '@/hooks/useWeb3.js'
   import { RouterLink, RouterView } from 'vue-router'
   import { useDark, useToggle } from '@vueuse/core'
   const {proxy} = getCurrentInstance();
   const isDark = useDark()
   const toggleDark = useToggle(isDark)
-  //
-  // const { web3,connect,onAccountsChanged,onChainChanged,switchOrAddChain,switchAccounts } = useWeb3()
-  // onMounted(async ()=>{
-  //   await connect()
-  //   const chain = await web3.eth.getChainId()
-  //   console.log('this.$web3---',chain)
-  // })
-  // onAccountsChanged(res => {
-  //   console.log('onAccountsChanged--',res)
-  // })
-  // onChainChanged(res =>{
-  //   console.log('onChainChanged--',res)
-  // })
+
 
 </script>
 
