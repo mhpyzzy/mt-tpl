@@ -14,7 +14,7 @@
     <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
 
     <div class="wrapper">
-
+      <div class="self">wrapper name</div>
       <el-button @click="switchOrAddChain('42161')" >switchOrAddChain</el-button>
       <el-button @click="switchAccounts" >switchAccounts</el-button>
       <div>{{isMobile?'H5':'PC'}}</div>
@@ -28,9 +28,18 @@
 </template>
 
 <style scoped>
+:root {
+  --thme-color: red;
+}
 header {
   line-height: 1.5;
   max-height: 100vh;
+}
+.wrapper {
+  .self {
+    font-size: 40px;
+    color: var(--thme-color);
+  }
 }
 
 .logo {
