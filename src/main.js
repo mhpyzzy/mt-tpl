@@ -2,6 +2,7 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import App from './App.vue'
 import router from './router'
+import '@fontsource-variable/rubik';
 import '@/styles/index.css'
 import I18n from '@/i18n'
 import mWeb3Plugin from '@/plugins/mWeb3.js';
@@ -21,5 +22,5 @@ app.use(I18n)
 app.use(router)
 app.use(VueClipboard);
 app.use(mWeb3Plugin);
-console.log('Main ----')
+
 app.mount('#app')

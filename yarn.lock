@@ -1371,6 +1371,11 @@
   resolved "https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.1.tgz#16308cea045f0fc777b6ff20a9f25474dd8293d2"
   integrity sha512-9TANp6GPoMtYzQdt54kfAyMmz1+osLlXdg2ENroU7zzrtflTLrrC/lgrIfaSe+Wu0b89GKccT7vxXA0MoAIO+Q==
 
+"@fontsource-variable/rubik@^5.0.22":
+  version "5.0.22"
+  resolved "https://registry.npmmirror.com/@fontsource-variable/rubik/-/rubik-5.0.22.tgz#6d6ac368453086279be98ad19ad90f6ee33f7268"
+  integrity sha512-QwMlj57+k5+IsShA8q6FECU6zlR4CIm4TAy49GIIiMxxpmRwDXbMynrTp2kBNZmlN4b/myXzSRBnI2DXmnWBJA==
+
 "@intlify/core-base@9.11.0":
   version "9.11.0"
   resolved "https://registry.npmmirror.com/@intlify/core-base/-/core-base-9.11.0.tgz#e7dfd1265672f9c75cb26fd270483f5e43663300"

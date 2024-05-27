@@ -12,6 +12,7 @@
     "lang": "node ./src/i18n/convert.js"
   },
   "dependencies": {
+    "@fontsource-variable/rubik": "^5.0.22",
     "@vant/auto-import-resolver": "^1.1.0",
     "@vueuse/core": "^10.9.0",
     "@vueuse/integrations": "^10.9.0",
